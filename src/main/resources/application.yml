@@ -1,0 +1,14 @@
+server:
+  port: 9090
+
+management.endpoint:
+  enabled-by-default: false
+  info:
+    enabled: true
+
+logging:
+  level:
+    root: INFO
+    com:
+      demo:
+        flux: DEBUG
